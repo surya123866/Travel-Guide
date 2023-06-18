@@ -1,0 +1,54 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background-color: #eef4f7;
+}
+.heading {
+  color: #334155;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  text-decoration: underline;
+  text-decoration-color: #52bbf0;
+}
+.packages-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.package-container {
+  list-style-type: none;
+  background-color: #ffffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 30%;
+  margin: 10px;
+}
+
+.image {
+  width: 100%;
+}
+.text-container {
+  padding: 10px;
+}
+.image-heading {
+  color: #475569;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  background-size: cover;
+}
+.description {
+  color: #64748b;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
